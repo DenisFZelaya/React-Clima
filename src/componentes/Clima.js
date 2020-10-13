@@ -22,7 +22,7 @@ class Clima extends Component {
                 <h2>Resultado del clima de: {name}</h2>
                 <p className='temperatura'>
                     Actual : {(main.temp - kelvin).toFixed(2)} &deg;C
-                    <img src={Icono} />
+                    <img src={Icono} alt='Imagen' />
                 </p>
                 <p> Max. {(main.temp_max - kelvin).toFixed(2)} &deg;C</p>
                 <p> Min. {(main.temp_min - kelvin).toFixed(2)} &deg;C</p>
