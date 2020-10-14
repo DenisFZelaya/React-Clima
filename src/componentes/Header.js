@@ -5,7 +5,7 @@ const Header = (props) => {
         <div>
             <nav>
                 <div className='nav-wrapper light-gray darken-2'>
-                    <a className='brand-logo'>{props.titulo}</a>
+                    <div className='brand-logo'>{props.titulo}</div>
                 </div>
             </nav>
         </div>
